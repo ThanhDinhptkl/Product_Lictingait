@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: auto;
+        }
+        
+        .tong {
+            background-color: pink;
+            height: 850px;
+            width: 800px;
+            box-shadow: 0 0 15px pink;
+        }
+        
+        p {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tong">
+        <h1 style="text-align: center;">Survey Form</h1>
+        <br>
+        <p>If you are interested in purchasing one or more of our product, before ordering please complete some or all of the follwing survey for our marketing department. Answering any question is optional, and all information will be kept stricly confidential.
+            Thank you very much for your time!</p>
+        <br>
+        <ol type="1">
+            <li>What is your name? <br>
+                <input type="text" size="30" maxlength="50">
+            </li> <br>
+
+            <li>What is your date if birth? <br> Month: <select name="google" id="google" style="width: 100px;"> <option value="January" >January</option></select> Date: <select name="ngay" id="day" style="width: 50px;"> <option value="1" >1</option></select>                Year:
+                <select name="nam" id="year" style="width: 50px;">
+                    <option value="19">19</option>
+                    </select>
+            </li> <br>
+
+            <li>What is your mailing address(if you would like to have a haed copy of our catalog sent to you)? <br>
+                <textarea id="" name="w3review" rows="5" cols="50" check>Number/P.O. Box/Route: 
+Street/Avenue/Road: 
+City: 
+State/Zip: </textarea>>
+            </li> <br>
+
+            <li>What is your email address? <br>
+                <input type="text" size="30" maxlength="50">
+            </li> <br>
+
+            <li>Have you viewed our online product catalog? <br>
+                <input type="radio" name="Gender" value="yes"> Yes
+                <input type="radio" name="Gender" value="no"> No
+            </li> <br>
+
+            <li>If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future?(Check all that apply) <br>
+                <input type="checkbox" name="Gender" value="no"> VCR
+                <br>
+                <input type="checkbox" name="Gender" value="no"> Big Screen TV
+                <br>
+                <input type="checkbox" name="Gender" value="no"> Audio Equiment
+                <br>
+                <input type="checkbox" name="Gender" value="no"> Video Equipment
+                <br>
+                <input type="checkbox" name="Gender" value="no"> Camera Equipment
+                <br>
+                <input type="checkbox" name="Gender" value="no"> Other <input type="text" size="30" maxlength="50">
+            </li> <br>
+
+            <li>Do you have any questions, comment or suggestions before proceeding to the Other Form? <br>
+                <textarea name="" id="" cols="70" rows="7"></textarea>
+            </li> <br> <br>
+
+            <p style="text-align: center;"><input type="submit" value="Send Form"> &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="Clear Form"></p>
+
+        </ol>
+    </div>
+</body>
+
+</html>

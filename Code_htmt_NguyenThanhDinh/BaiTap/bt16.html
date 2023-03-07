@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: auto;
+            margin-left: 2px;
+        }
+        
+        .tong {
+            width: 400px;
+            height: 480px;
+            background-color: pink;
+            box-shadow: 0 0 15px pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tong">
+        <h1>Travel reservation form</h1>
+        <br>
+        <h2>*denotes mandotory</h2>
+        <form action="" method="post">
+            <label for="">Full Name*:<br /> <input type="text" name="FullName" value="" size="20" maxlength="20" placeholder="FirstName LastName"><br>
+                <label for="">Email address*:<br /><input type="email" name="email" value="" size="20" maxlength="50" placeholder="Email_address">
+            <p>Seclect Tour Package*: <br>
+                <select name="google" id="google">
+          <option value="Goa" >Goa</option>
+        </select> </p>
+            <p>Arrival date*: <br> <input type="datetime" name="Arrivaldate" value="" size="20" maxlength="20" placeholder="m/d/y"></p>
+            <p>Number of persons*: <br> <input type="text" name="NumberOfPersons" value="" size="20" maxlength="20" placeholder="UNKOWN_TYPE"></p>
+            <p>What would you want to avail?*
+                <br> Boarding <input type="checkbox" name="vehicle1">
+                <br> Fooding <input type="checkbox" name="vehicle1">
+                <br> Sight seeing <input type="checkbox" name="vehicle1">
+            </p>
+            <p>Discout Coupon code:*: <br> <input type="text" name="discout" value="" size="20" maxlength="20" placeholder="UNKOWN_TYPE">></p>
+            <p>Terms and condition <br>
+                <input type="radio" name="Gender" value="I agree"> I agree
+                <input type="radio" name="Gender" value="I disagree"> I disagree
+            </p>
+            <p> <input type="submit" value="Complete reservation"></p>
+        </form>
+    </div>
+</body>
+
+</html>
